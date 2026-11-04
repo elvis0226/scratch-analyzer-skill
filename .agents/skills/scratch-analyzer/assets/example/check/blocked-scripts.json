@@ -1,0 +1,35 @@
+{
+  "source_sb3_sha256": "cfa509741e03df6c01ac3e4d703d70b917d442f0afb360a90b55b69f8ea6a584",
+  "remaining": [],
+  "resolved": [
+    {
+      "target": "Sprite1",
+      "top_level_block_id": "fYj3BfZZ$;O9Mdc*QBO?",
+      "event": "event_whenflagclicked",
+      "first_failure_block_id": "@qe;UJJk)MGABJ!|-gQA",
+      "opcodes": [
+        {
+          "opcode": "pen_clear",
+          "block_id": "@qe;UJJk)MGABJ!|-gQA"
+        },
+        {
+          "opcode": "pen_stamp",
+          "block_id": "lnj%Uk!Ry8?y:Jb!MK{["
+        },
+        {
+          "opcode": "looks_changesizeby",
+          "block_id": "Drm.=8YbygSc`|M8|G$0"
+        },
+        {
+          "opcode": "looks_changeeffectby",
+          "block_id": "Le/9oY]g0C5Bmx6^CTRo"
+        },
+        {
+          "opcode": "motion_turnright",
+          "block_id": "{dC9rlE~OSiEQIR0~R[O"
+        }
+      ],
+      "reason": "初次稽核時現有轉換器尚未支援上述積木，第一個阻礙為 pen_clear。已補支援並重新匯出。"
+    }
+  ]
+}

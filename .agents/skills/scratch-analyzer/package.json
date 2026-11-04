@@ -1,0 +1,11 @@
+{
+  "name": "codex-scratch-analyzer",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "1.62.1",
+    "scratchblocks": "3.7.1"
+  }
+}

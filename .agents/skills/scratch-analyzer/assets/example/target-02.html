@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sprite1｜SCRATCH ANALYZER</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header class="masthead"><a class="brand" href="index.html">SCRATCH ANALYZER</a><span class="draft">已審閱</span></header>
+<main>
+
+<nav class="breadcrumb"><a href="index.html">← 回總覽</a></nav>
+<p class="kicker">角色詳情</p><h1>Sprite1</h1>
+<div class="profile grid">
+  <section><h2>造型 <small>12 個</small></h2><div class="costumes"><figure><span class="asset-no">第 1 個造型</span><span class="thumb"><img src="assets/target-02-costume-01.svg" alt="costume1"></span><figcaption>costume1</figcaption></figure><figure><span class="asset-no">第 2 個造型</span><span class="thumb"><img src="assets/target-02-costume-02.svg" alt="Arrow1-a"></span><figcaption>Arrow1-a</figcaption></figure><figure><span class="asset-no">第 3 個造型</span><span class="thumb"><img src="assets/target-02-costume-03.svg" alt="costume2"></span><figcaption>costume2</figcaption></figure><figure><span class="asset-no">第 4 個造型</span><span class="thumb"><img src="assets/target-02-costume-04.svg" alt="Abby-d"></span><figcaption>Abby-d</figcaption></figure><figure><span class="asset-no">第 5 個造型</span><span class="thumb"><img src="assets/target-02-costume-05.svg" alt="Bat-a"></span><figcaption>Bat-a</figcaption></figure><figure><span class="asset-no">第 6 個造型</span><span class="thumb"><img src="assets/target-02-costume-06.svg" alt="Bread"></span><figcaption>Bread</figcaption></figure><figure><span class="asset-no">第 7 個造型</span><span class="thumb"><img src="assets/target-02-costume-07.svg" alt="Broom"></span><figcaption>Broom<span class="current">原檔目前使用</span></figcaption></figure><figure><span class="asset-no">第 8 個造型</span><span class="thumb"><img src="assets/target-02-costume-08.svg" alt="Microphone-a"></span><figcaption>Microphone-a</figcaption></figure><figure><span class="asset-no">第 9 個造型</span><span class="thumb"><img src="assets/target-02-costume-09.svg" alt="Microphone-b"></span><figcaption>Microphone-b</figcaption></figure><figure><span class="asset-no">第 10 個造型</span><span class="thumb"><img src="assets/target-02-costume-10.svg" alt="costume3"></span><figcaption>costume3</figcaption></figure><figure><span class="asset-no">第 11 個造型</span><span class="thumb"><img src="assets/target-02-costume-11.svg" alt="Dragon1-b"></span><figcaption>Dragon1-b</figcaption></figure><figure><span class="asset-no">第 12 個造型</span><span class="thumb"><img src="assets/target-02-costume-12.svg" alt="costume4"></span><figcaption>costume4</figcaption></figure></div></section>
+  <aside aria-label="音效與資料">
+    <section><h2>音效 <small>1 個</small></h2><ul><li>Meow</li></ul></section>
+    <section><h2>角色變數 <small>0 個</small></h2><p>無</p><h2>角色清單 <small>0 份</small></h2><p>無</p></section>
+  </aside>
+</div>
+<section><h2 class="section-title">程式積木 <small>1 支腳本</small></h2>
+<article id="script-01">
+  <p class="kicker">腳本 01 · 重點解說</p><h3>當綠旗被點擊</h3>
+  <div class="script-grid">
+    <section><h4>完整積木圖</h4><div class="diagram" tabindex="0" role="region" aria-label="Sprite1 的完整綠旗腳本（可水平捲動）"><img src="assets/script-01.svg" alt="Sprite1 的完整綠旗腳本"></div></section>
+    <section class="explain"><h4>程式解說</h4>
+      <ol>
+        <li>點擊綠旗後，先清除畫筆層上的舊印記，再把 Sprite1 的尺寸設為 510%。</li>
+        <li>重複 250 次。每輪先縮小 2 個百分點、把顏色效果加 1、右轉 30 度，才把當下的造型蓋到畫筆層上。</li>
+        <li>角色留在舞台中央。每 12 次右轉回到同一朝向，較小的印記沿相同方向疊到前面的印記上。蓋章完成後，留下靜態圖案。</li>
+      </ol>
+      <p class="note">原作使用第 7 個造型 Broom。重按綠旗時，Scratch 會重設圖像效果，腳本會清除舊印記，角色則從當下的方向再轉。</p>
+    </section>
+    <section id="loop-detail"><h4>細部積木圖 · 每一輪如何蓋出下一層</h4><div class="diagram" tabindex="0" role="region" aria-label="原始重複 250 次積木及迴圈內四塊積木（可水平捲動）"><img src="assets/detail-loop.svg" alt="原始重複 250 次積木及迴圈內四塊積木"></div></section>
+    <section class="explain"><h4>細部說明</h4><p>「蓋章」記下角色當時的大小、顏色與方向，之前的印記會留在畫筆層。因為縮小發生在蓋章之前，第一枚印記的尺寸是 508%。</p><p>最後一輪碰到 Scratch 對這個造型的尺寸下限。本機實測最後一枚約為 11.42%。</p><p><a href="challenge.html#experiment">試著改動右轉角度 →</a></p></section>
+  </div>
+</article></section>
+
+</main>
+<footer>TC_旋轉出美麗的花朵靜態版 · Scratch 3 原作分析</footer>
+</body>
+</html>

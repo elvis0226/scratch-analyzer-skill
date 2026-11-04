@@ -1,0 +1,170 @@
+{
+  "source_sb3_sha256": "cfa509741e03df6c01ac3e4d703d70b917d442f0afb360a90b55b69f8ea6a584",
+  "extensions": [
+    "pen"
+  ],
+  "targets": [
+    {
+      "page": "target-01.html",
+      "name": "Stage",
+      "is_stage": true,
+      "current_costume_number": 1,
+      "variables": [
+        {
+          "id": "`jEk@4|i[#Fk?(8x)AV.-my variable",
+          "name": "my variable",
+          "initial_value": 0
+        },
+        {
+          "id": "cu{]y;DggI[1RF2mQ8s.",
+          "name": "x",
+          "initial_value": 0
+        }
+      ],
+      "lists": [],
+      "broadcasts": [],
+      "custom_definitions": [],
+      "script_roots": [],
+      "costumes": [
+        {
+          "number": 1,
+          "name": "backdrop1",
+          "source_asset": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+          "image": "assets/target-01-costume-01.svg"
+        }
+      ],
+      "sounds": [
+        {
+          "number": 1,
+          "name": "pop",
+          "source_asset": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+        }
+      ]
+    },
+    {
+      "page": "target-02.html",
+      "name": "Sprite1",
+      "is_stage": false,
+      "current_costume_number": 7,
+      "variables": [],
+      "lists": [],
+      "broadcasts": [],
+      "custom_definitions": [],
+      "script_roots": [
+        "fYj3BfZZ$;O9Mdc*QBO?"
+      ],
+      "costumes": [
+        {
+          "number": 1,
+          "name": "costume1",
+          "source_asset": "b7853f557e4426412e64bb3da6531a99.svg",
+          "image": "assets/target-02-costume-01.svg"
+        },
+        {
+          "number": 2,
+          "name": "Arrow1-a",
+          "source_asset": "5be25459663296df3690a1e7cf0abc34.svg",
+          "image": "assets/target-02-costume-02.svg"
+        },
+        {
+          "number": 3,
+          "name": "costume2",
+          "source_asset": "755dfb9421faf9ddd856fa93345f59a7.svg",
+          "image": "assets/target-02-costume-03.svg"
+        },
+        {
+          "number": 4,
+          "name": "Abby-d",
+          "source_asset": "45de34b47a2ce22f6f5d28bb35a44ff5.svg",
+          "image": "assets/target-02-costume-04.svg"
+        },
+        {
+          "number": 5,
+          "name": "Bat-a",
+          "source_asset": "4e4ced87ed37ee66c758bba077e0eae6.svg",
+          "image": "assets/target-02-costume-05.svg"
+        },
+        {
+          "number": 6,
+          "name": "Bread",
+          "source_asset": "eb0b5ec6f24f1043d29ed9b565669c8f.svg",
+          "image": "assets/target-02-costume-06.svg"
+        },
+        {
+          "number": 7,
+          "name": "Broom",
+          "source_asset": "35077fa8437b1865a7789506918d3f6d.svg",
+          "image": "assets/target-02-costume-07.svg"
+        },
+        {
+          "number": 8,
+          "name": "Microphone-a",
+          "source_asset": "b56e01051a41a6614f6aecaf00ea9413.svg",
+          "image": "assets/target-02-costume-08.svg"
+        },
+        {
+          "number": 9,
+          "name": "Microphone-b",
+          "source_asset": "b1a388bbb91788ef62495da1e67ead21.svg",
+          "image": "assets/target-02-costume-09.svg"
+        },
+        {
+          "number": 10,
+          "name": "costume3",
+          "source_asset": "3ce2c74130ff2855e16ffc55c647cb77.svg",
+          "image": "assets/target-02-costume-10.svg"
+        },
+        {
+          "number": 11,
+          "name": "Dragon1-b",
+          "source_asset": "326acd1ab7b4d842c3591e57345a0f53.svg",
+          "image": "assets/target-02-costume-11.svg"
+        },
+        {
+          "number": 12,
+          "name": "costume4",
+          "source_asset": "d979e61554d39217112718f4ca84ae77.svg",
+          "image": "assets/target-02-costume-12.svg"
+        }
+      ],
+      "sounds": [
+        {
+          "number": 1,
+          "name": "Meow",
+          "source_asset": "83c36d806dc92327b9e7049a565c6bff.wav"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "stages": 1,
+    "sprites": 1,
+    "scripts": 1,
+    "broadcasts": 0,
+    "variables": 2,
+    "lists": 0,
+    "custom_blocks": 0,
+    "costumes_and_backdrops": 13,
+    "sounds": 2
+  },
+  "monitors": [
+    {
+      "id": "cu{]y;DggI[1RF2mQ8s.",
+      "mode": "default",
+      "opcode": "data_variable",
+      "params": {
+        "VARIABLE": "x"
+      },
+      "spriteName": null,
+      "value": 0,
+      "width": 0,
+      "height": 0,
+      "x": 5,
+      "y": 5,
+      "visible": true,
+      "sliderMin": 0,
+      "sliderMax": 100,
+      "isDiscrete": true
+    }
+  ]
+}

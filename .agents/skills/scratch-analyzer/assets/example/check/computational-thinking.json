@@ -1,0 +1,39 @@
+{
+  "source_sb3_sha256": "cfa509741e03df6c01ac3e4d703d70b917d442f0afb360a90b55b69f8ea6a584",
+  "tags": [
+    {
+      "name": "循序",
+      "target": "Sprite1",
+      "top_level_block_id": "fYj3BfZZ$;O9Mdc*QBO?",
+      "evidence_block_ids": [
+        "@qe;UJJk)MGABJ!|-gQA",
+        "Ww@D@xi4as@WU7v*@zUw",
+        "Drm.=8YbygSc`|M8|G$0",
+        "Le/9oY]g0C5Bmx6^CTRo",
+        "{dC9rlE~OSiEQIR0~R[O",
+        "lnj%Uk!Ry8?y:Jb!MK{["
+      ],
+      "reason": "先清掉舊章、設定尺寸，再於每輪縮小、換色、右轉，最後才蓋下更新後的造型。"
+    },
+    {
+      "name": "迴圈",
+      "target": "Sprite1",
+      "top_level_block_id": "fYj3BfZZ$;O9Mdc*QBO?",
+      "evidence_block_ids": [
+        "N_CwuQUG^q0C;Ffbl*97",
+        "lnj%Uk!Ry8?y:Jb!MK{["
+      ],
+      "reason": "固定重複 250 次，每輪蓋一次章。"
+    },
+    {
+      "name": "事件處理",
+      "target": "Sprite1",
+      "top_level_block_id": "fYj3BfZZ$;O9Mdc*QBO?",
+      "evidence_block_ids": [
+        "fYj3BfZZ$;O9Mdc*QBO?"
+      ],
+      "reason": "點擊綠旗會啟動角色唯一的腳本。"
+    }
+  ],
+  "excluded_note": "Stage 雖宣告 my variable 與 x，腳本未讀寫變數。x 監視器顯示的值和角色的座標是不同資料。"
+}

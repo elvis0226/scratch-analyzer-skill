@@ -1,0 +1,71 @@
+{
+  "source_sb3_sha256": "cfa509741e03df6c01ac3e4d703d70b917d442f0afb360a90b55b69f8ea6a584",
+  "language": "zh-tw",
+  "scripts": [
+    {
+      "sprite": "Sprite1",
+      "event": "event_whenflagclicked",
+      "block_id": "fYj3BfZZ$;O9Mdc*QBO?",
+      "source_block_ids": [
+        "@qe;UJJk)MGABJ!|-gQA",
+        "Drm.=8YbygSc`|M8|G$0",
+        "Le/9oY]g0C5Bmx6^CTRo",
+        "N_CwuQUG^q0C;Ffbl*97",
+        "Ww@D@xi4as@WU7v*@zUw",
+        "fYj3BfZZ$;O9Mdc*QBO?",
+        "lnj%Uk!Ry8?y:Jb!MK{[",
+        "{dC9rlE~OSiEQIR0~R[O"
+      ],
+      "text": "script-01.txt",
+      "text_sha256": "12899eaad3fcfa5ad76f0e713c89990afc827a3eaeff9bd32c2455224a1b54f7",
+      "image": "script-01.svg",
+      "image_sha256": "3031c960b505899934df52254fc8509892e9b256de5ffbeaabc72d3848121f71",
+      "event_label": "當綠旗被點擊",
+      "page_anchor": "../target-02.html#script-01",
+      "page_image": "../assets/script-01.svg",
+      "opcode_order": [
+        "event_whenflagclicked",
+        "pen_clear",
+        "looks_setsizeto",
+        "control_repeat",
+        "looks_changesizeby",
+        "looks_changeeffectby",
+        "motion_turnright",
+        "pen_stamp"
+      ],
+      "check_results": {
+        "text": "已對照 next、SUBSTACK、所有輸入值與 EFFECT 欄位",
+        "svg": "詳見 browser-validation.json",
+        "runtime": "詳見 runtime-validation.json"
+      }
+    }
+  ],
+  "status": "已審閱",
+  "fragments": [
+    {
+      "slug": "detail-loop",
+      "title": "每一輪如何蓋出下一層",
+      "block_id": "N_CwuQUG^q0C;Ffbl*97",
+      "source_block_ids": [
+        "Drm.=8YbygSc`|M8|G$0",
+        "Le/9oY]g0C5Bmx6^CTRo",
+        "N_CwuQUG^q0C;Ffbl*97",
+        "lnj%Uk!Ry8?y:Jb!MK{[",
+        "{dC9rlE~OSiEQIR0~R[O"
+      ],
+      "image": "detail-loop.svg",
+      "image_sha256": "66baf6b6ab5331d8bc6cd2cba50a5f1411cc56b339413639c1e80a261b75656e",
+      "text": "detail-loop.txt",
+      "display_wrapper": null,
+      "top_level_block_id": "fYj3BfZZ$;O9Mdc*QBO?",
+      "event": "event_whenflagclicked",
+      "text_sha256": "c3b13db0bf3c4d882760a13b027f3516af4cd21baf14ee9b448a698743bb5519",
+      "page_anchor": "../target-02.html#loop-detail",
+      "page_image": "../assets/detail-loop.svg",
+      "check_results": {
+        "text": "原始迴圈與完整迴圈本體，共五塊，未添加外框",
+        "svg": "詳見 browser-validation.json"
+      }
+    }
+  ]
+}

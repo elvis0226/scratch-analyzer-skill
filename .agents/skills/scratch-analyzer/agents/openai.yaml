@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scratch 檔案分析師"
+  short_description: "盤點 Scratch 3 作品，產出繁中積木圖與離線分析頁"
+  default_prompt: "用 $scratch-analyzer 分析我附上的 Scratch 3 原始檔，交付離線分析頁及來源對照。"

@@ -1,0 +1,42 @@
+{
+  "source_file": "TC_旋轉出美麗的花朵靜態版.sb3",
+  "source_sb3_sha256": "cfa509741e03df6c01ac3e4d703d70b917d442f0afb360a90b55b69f8ea6a584",
+  "scope": "Archive/assets/references and existing converter; no game execution or teacher approval.",
+  "structure_issues": [],
+  "targets": [
+    {
+      "sprite": "Stage",
+      "is_stage": true,
+      "block_count": 0,
+      "opcodes": {},
+      "unsupported_opcodes": {}
+    },
+    {
+      "sprite": "Sprite1",
+      "is_stage": false,
+      "block_count": 8,
+      "opcodes": {
+        "control_repeat": 1,
+        "event_whenflagclicked": 1,
+        "looks_changeeffectby": 1,
+        "looks_changesizeby": 1,
+        "looks_setsizeto": 1,
+        "motion_turnright": 1,
+        "pen_clear": 1,
+        "pen_stamp": 1
+      },
+      "unsupported_opcodes": {}
+    }
+  ],
+  "scripts": [
+    {
+      "sprite": "Sprite1",
+      "block_id": "fYj3BfZZ$;O9Mdc*QBO?",
+      "event": "event_whenflagclicked",
+      "text": "when green flag clicked\nerase all\nset size to (510) %\nrepeat (250)\n  change size by (-2)\n  change [color v] effect by (1)\n  turn @turnRight (30) degrees\n  stamp\nend",
+      "status": "converted"
+    }
+  ],
+  "status": "converted",
+  "later_stages": "SVG and lesson generation require successfully converted scripts and teacher-authored content."
+}

@@ -1,0 +1,9 @@
+when green flag clicked
+erase all
+set size to (510) %
+repeat (250)
+  change size by (-2)
+  change [color v] effect by (1)
+  turn @turnRight (30) degrees
+  stamp
+end

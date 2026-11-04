@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "browser": "Chrome / Playwright, file://, external HTTP(S) blocked, offline browsing",
+  "layout": [
+    {
+      "name": "overview",
+      "width": 1280,
+      "loadedImages": 2,
+      "horizontalPageOverflow": false
+    },
+    {
+      "name": "sprite",
+      "width": 1280,
+      "loadedImages": 14,
+      "horizontalPageOverflow": false
+    },
+    {
+      "name": "stage",
+      "width": 1280,
+      "loadedImages": 1,
+      "horizontalPageOverflow": false
+    },
+    {
+      "name": "challenge",
+      "width": 1280,
+      "loadedImages": 0,
+      "horizontalPageOverflow": false
+    },
+    {
+      "name": "overview",
+      "width": 390,
+      "loadedImages": 2,
+      "horizontalPageOverflow": false
+    },
+    {
+      "name": "sprite",
+      "width": 390,
+      "loadedImages": 14,
+      "horizontalPageOverflow": false
+    },
+    {
+      "name": "stage",
+      "width": 390,
+      "loadedImages": 1,
+      "horizontalPageOverflow": false
+    },
+    {
+      "name": "challenge",
+      "width": 390,
+      "loadedImages": 0,
+      "horizontalPageOverflow": false
+    }
+  ],
+  "scrollAt280": [
+    {
+      "overflow": true,
+      "scrollLeft": 47
+    },
+    {
+      "overflow": true,
+      "scrollLeft": 47
+    }
+  ],
+  "downloadStatus": "relative link and local file hash verified; headless Chrome emitted a download event and then reported canceled",
+  "downloadSha256": "cfa509741e03df6c01ac3e4d703d70b917d442f0afb360a90b55b69f8ea6a584",
+  "challenge": "homepage and return navigation, 3 block links, all 3 answer feedback paths, no-choice prompt, retry",
+  "scratchblocks": [
+    {
+      "svg": "script-01.svg",
+      "matchedSourceBlocks": 8,
+      "width": 269,
+      "height": 458,
+      "labels": [
+        "當",
+        "被點擊",
+        "筆跡全部清除",
+        "尺寸設為",
+        "510",
+        "%",
+        "重複",
+        "250",
+        "次",
+        "尺寸改變",
+        "-2",
+        "圖像效果",
+        "顏色",
+        "改變",
+        "1",
+        "右轉",
+        "30",
+        "度",
+        "蓋章"
+      ],
+      "scratch3": true
+    },
+    {
+      "svg": "detail-loop.svg",
+      "matchedSourceBlocks": 5,
+      "width": 269,
+      "height": 290,
+      "labels": [
+        "重複",
+        "250",
+        "次",
+        "尺寸改變",
+        "-2",
+        "圖像效果",
+        "顏色",
+        "改變",
+        "1",
+        "右轉",
+        "30",
+        "度",
+        "蓋章"
+      ],
+      "scratch3": true
+    }
+  ],
+  "externalRequests": [],
+  "pageErrors": []
+}

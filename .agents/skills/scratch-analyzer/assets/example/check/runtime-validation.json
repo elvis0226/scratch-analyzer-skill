@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "runtime": "Scratch VM 15.3.0 with Scratch Render, offline Chrome, original SB3, normal speed, real pen calls wrapped only to observe",
+  "initial": {
+    "size": 11.415525312998964,
+    "direction": -35,
+    "color": 0,
+    "x": 0,
+    "y": 0,
+    "costume": "Broom"
+  },
+  "runs": [
+    {
+      "before": {
+        "size": 11.415525312998964,
+        "direction": -35,
+        "color": 0,
+        "x": 0,
+        "y": 0,
+        "costume": "Broom"
+      },
+      "after": {
+        "size": 11.415525312998964,
+        "direction": -95,
+        "color": 250,
+        "x": 0,
+        "y": 0,
+        "costume": "Broom"
+      },
+      "clear": {
+        "method": "penClear",
+        "size": 11.415525312998964,
+        "direction": -35,
+        "color": 0,
+        "x": 0,
+        "y": 0,
+        "costume": "Broom"
+      },
+      "stamps": 250,
+      "firstStamp": {
+        "method": "penStamp",
+        "size": 507.99999999999994,
+        "direction": -5,
+        "color": 1,
+        "x": 0,
+        "y": 0,
+        "costume": "Broom"
+      },
+      "lastStamp": {
+        "method": "penStamp",
+        "size": 11.415525312998964,
+        "direction": -95,
+        "color": 250,
+        "x": 0,
+        "y": 0,
+        "costume": "Broom"
+      },
+      "minSize": 11.415525312998964,
+      "stampsAtMinSize": 1
+    },
+    {
+      "before": {
+        "size": 11.415525312998964,
+        "direction": -95,
+        "color": 250,
+        "x": 0,
+        "y": 0,
+        "costume": "Broom"
+      },
+      "after": {
+        "size": 11.415525312998964,
+        "direction": -155,
+        "color": 250,
+        "x": 0,
+        "y": 0,
+        "costume": "Broom"
+      },
+      "clear": {
+        "method": "penClear",
+        "size": 11.415525312998964,
+        "direction": -95,
+        "color": 0,
+        "x": 0,
+        "y": 0,
+        "costume": "Broom"
+      },
+      "stamps": 250,
+      "firstStamp": {
+        "method": "penStamp",
+        "size": 507.99999999999994,
+        "direction": -65,
+        "color": 1,
+        "x": 0,
+        "y": 0,
+        "costume": "Broom"
+      },
+      "lastStamp": {
+        "method": "penStamp",
+        "size": 11.415525312998964,
+        "direction": -155,
+        "color": 250,
+        "x": 0,
+        "y": 0,
+        "costume": "Broom"
+      },
+      "minSize": 11.415525312998964,
+      "stampsAtMinSize": 1
+    }
+  ]
+}
